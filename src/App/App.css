@@ -1,6 +1,6 @@
 img {
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
 }
 
 .App {
@@ -12,19 +12,14 @@ img {
   pointer-events: none;
 }
 
-/* .body {
-  margin: auto;
-} */
-
 .header {
   width: 100%;
   display: inline-flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page {
+  margin: 0 150px;
+  text-align: center;
 }
 
 .App-link {
@@ -37,5 +32,14 @@ img {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .header {
+    width: 50%;
+  }
+  .App-link {
+    width: 50%;
   }
 }
