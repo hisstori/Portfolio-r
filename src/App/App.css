@@ -15,10 +15,11 @@ img {
 .header {
   width: 100%;
   display: inline-flex;
+  text-align: center;
 }
 
 .page {
-  margin: 0 150px;
+  /* margin: 0 150px; */
   text-align: center;
 }
 

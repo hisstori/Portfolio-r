@@ -12,14 +12,14 @@ class App extends Component {
   render() {
     // function App (){
     return (
-        <div className="hero is-black">
-          <header className="hero-body header">
+        <div className="hero is-fullheight is-black">
+          <header className="hero-head header">
             <NavLink to="/">
               {/* <img src={logo} className="App-link" alt="logo" /> */}
             </NavLink>
             <div>
             <a
-              className="App-link button is-warning is-outlined"
+              className="App-link button is-warning is-outlined is-small"
               href="https://www.linkedin.com/in/ryan-brown-71b34210b/"
               target="_blank"
               rel="noopener noreferrer"
@@ -29,7 +29,7 @@ class App extends Component {
             </div>
             <div>
             <a
-              className="App-link button is-warning is-outlined"
+              className="App-link button is-warning is-outlined is-small"
               href="https://github.com/hisstori"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,11 +39,11 @@ class App extends Component {
             </div>
             <div>
             <NavLink to="/resume"
-            className="App-link button is-warning is-outlined">Resume</NavLink>
+            className="App-link button is-warning is-outlined is-small">Resume</NavLink>
             </div>
             <div>
             <NavLink to="/projects"
-            className="App-link button is-warning is-outlined">Projects</NavLink>
+            className="App-link button is-warning is-outlined is-small">Projects</NavLink>
             </div>
           </header>
           {/* </div> */}
