@@ -26,6 +26,11 @@ img {
   margin: 0 10px;
 }
 
+.resume {
+  text-align: center;
+  margin: auro;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

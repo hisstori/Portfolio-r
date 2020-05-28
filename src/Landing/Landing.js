@@ -4,7 +4,7 @@ import "../App/App";
 class Landing extends Component {
 render() {
     return (
-        <div>Hi</div>
+        <div></div>
     )
 }
 }

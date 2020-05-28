@@ -12,10 +12,10 @@ class App extends Component {
   render() {
     // function App (){
     return (
-        <div className="hero is-dark">
+        <div className="hero is-black">
           <header className="hero-body header">
             <NavLink to="/">
-              <img src={logo} className="App-link" alt="logo" />
+              {/* <img src={logo} className="App-link" alt="logo" /> */}
             </NavLink>
             <div>
             <a
