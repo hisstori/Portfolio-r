@@ -12,29 +12,39 @@ class App extends Component {
   render() {
     // function App (){
     return (
-        <div className="App">
-          <header className="App-header">
+        <div className="hero is-black back">
+          <header className="hero-body header">
             <NavLink to="/">
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={logo} className="App-link" alt="logo" />
             </NavLink>
+            <div>
             <a
-              className="App-link"
+              className="App-link button is-warning is-outlined"
               href="https://www.linkedin.com/in/ryan-brown-71b34210b/"
               target="_blank"
               rel="noopener noreferrer"
             >
               LinkedIn
             </a>
+            </div>
+            <div>
             <a
-              className="App-link"
+              className="App-link button is-warning is-outlined"
               href="https://github.com/hisstori"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </a>
-            <NavLink to="/resume">Resume</NavLink>
-            <NavLink to="/projects">Projects</NavLink>
+            </div>
+            <div>
+            <NavLink to="/resume"
+            className="App-link button is-warning is-outlined">Resume</NavLink>
+            </div>
+            <div>
+            <NavLink to="/projects"
+            className="App-link button is-warning is-outlined">Projects</NavLink>
+            </div>
           </header>
           {/* </div> */}
           <div>
